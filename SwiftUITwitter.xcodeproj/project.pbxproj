@@ -16,6 +16,7 @@
 		211D9D842832B0C400CB505C /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D9D832832B0C400CB505C /* ExploreView.swift */; };
 		211D9D862832B0D800CB505C /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D9D852832B0D800CB505C /* NotificationsView.swift */; };
 		211D9D882832B0E800CB505C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211D9D872832B0E800CB505C /* MessagesView.swift */; };
+		2167D2A52833DF2700F6C87A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167D2A42833DF2700F6C87A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		211D9D832832B0C400CB505C /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		211D9D852832B0D800CB505C /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		211D9D872832B0E800CB505C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		2167D2A42833DF2700F6C87A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +192,25 @@
 		211D9D822832B0A900CB505C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				2167D2A32833DF1C00F6C87A /* Views */,
+				2167D2A22833DF1300F6C87A /* ViewModels */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		2167D2A22833DF1300F6C87A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2167D2A32833DF1C00F6C87A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2167D2A42833DF2700F6C87A /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2167D2A52833DF2700F6C87A /* ProfileView.swift in Sources */,
 				211D9D7B2832ACA000CB505C /* TweetsRowView.swift in Sources */,
 				211D9D782832AC0400CB505C /* FeedView.swift in Sources */,
 				211D9D622832AB3800CB505C /* SwiftUITwitterApp.swift in Sources */,
